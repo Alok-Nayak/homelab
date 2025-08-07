@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 echo 'Pulling source code from Git..'
-                git url: 'https://github.com/Alok-Nayak/homelab.git', branch 'main'
+                git url: 'https://github.com/Alok-Nayak/homelab.git', branch: 'main'
             }
         }
 
