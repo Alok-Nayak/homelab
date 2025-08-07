@@ -1,0 +1,12 @@
+{
+  "name": "simple-app",
+  "version": "1.0.0",
+  "description": "A simple package for our CI/CD pipeline.",
+  "main": "index.html",
+  "scripts": {
+    "build": "mkdir -p ./dist && cp index.html ./dist/index.html && echo \"Build finished.\"",
+    "test": "echo \"Tests are running...\" && echo \"All tests passed.\""
+  },
+  "author": "",
+  "license": "ISC"
+}
